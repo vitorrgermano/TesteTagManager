@@ -13,13 +13,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 </head>
 <body>
-   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3SSRPQ9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    <h1>PÁGINA DE TESTE BRADESCO</h1>
-    <button onclick="addVariable()">Adicionar variávelk</button>
-
 <!-- Display area for the added variable -->
 <p id="variableDisplay"></p>
 
@@ -27,10 +20,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     // JavaScript function to add a variable and create a button dynamically
     function addVariable() {
         // You can set any value to the variable
-        var TestSMTBollean = true;
+        var myVariable = "This is a variable.";
 
         // Display the variable on the page
-        document.getElementById("variableDisplay").innerHTML = "Added Variable: " + TestSMTBollean;
+        document.getElementById("variableDisplay").innerHTML = "Added Variable: " + myVariable;
     }
 
     // Create the button dynamically
